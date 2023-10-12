@@ -54,7 +54,7 @@ printf "\n" | add-apt-repository ppa:deadsnakes/ppa
 apt install python3.10 -y
 apt install python3.10-dev -y
 
-go_version=1.16.5
+go_version=1.17
 wget "https://dl.google.com/go/go${go_version}.linux-amd64.tar.gz"
 tar -xvf "go${go_version}.linux-amd64.tar.gz"
 mv go /usr/local
